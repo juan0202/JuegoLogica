@@ -1,0 +1,15 @@
+sprite_sheet "spike-ball" 512 x 512 margin 1
+
+top_light "spike-ball.xcf.bz2"
+front_light "spike-ball-front.xcf.bz2"
+
+"top light" image_size * 1 with top_light
+  glob "*"
+  exclude "original ball"
+  exclude "palette"
+;
+
+"front light" image_size * 1 with front_light
+  glob "*"
+  exclude "palette"
+;
